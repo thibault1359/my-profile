@@ -63,7 +63,7 @@ a:hover {
 	box-shadow: 0 9px #999;
 }
 
-.button:hover {background-color: #3e8e41}
+.button:hover {background-color: red}
 
 .button:active {
 	background-color: #3e8e41;
@@ -75,24 +75,32 @@ a:hover {
 .list-inline {
     list-style: none; /* kill the bullet points */
     padding-left: 0px; /* kill remaining padding left */
-  }
-  .list-inline > li {
+}
+.list-inline > li {
     display: inline; /* change list item behavior to inline */
     padding: 0px 20px; /* add som left/right padding between list items */
-  }
+}
 
+.page-content {
+	margin-left: 200px;
+}
 
+.sidebar a {
+	color: black;
+}
 
+.sidebar a:hover {
+	color: red;
+}
+.sidebar {
+	position: fixed;
+	width: 200px;
+	left: 10px;
+	top: 0;
+	bottom: 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.sidebar ul {
+  list-style: none;
+	padding-left: 0px;
+}
